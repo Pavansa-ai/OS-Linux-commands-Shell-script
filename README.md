@@ -97,10 +97,11 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![07cut.png](img/07cut.png)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![08cut.png](img/08cut.png)
 
 
 
