@@ -91,7 +91,7 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
+![06cut.png](img/06cut.png)
 
 
 
@@ -99,9 +99,9 @@ cut -d "|" -f 1 file22
 ## OUTPUT
 
 
-
 cut -d "|" -f 2 file22
 ## OUTPUT
+
 
 
 cat < newfile 
@@ -116,6 +116,7 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![Alt text](img/09grep.png)
 
 
 
