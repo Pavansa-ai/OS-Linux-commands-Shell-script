@@ -123,29 +123,32 @@ grep Hello newfile
 
 grep hello newfile 
 ## OUTPUT
-
-
-
+![10grep.png](img/10grep.png)
 
 grep -v hello newfile 
 ## OUTPUT
+![11grep.png](img/11grep.png)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![12catgrep.png](img/12catgrep.png)
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![13catgrep.png](img/13catgrep.png)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![14ubuntu.png](img/14ubuntu.png)
 
 
 
