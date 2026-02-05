@@ -154,6 +154,8 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+![15grep.png](img/15grep.png)
+
 
 
 cat < newfile 
@@ -177,42 +179,47 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![16egrep.png](img/16egrep.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![17egrep.png](img/17egrep.png)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![18egrep.png](img/18egrep.png)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![19egrep.png](img/19egrep.png)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![20egrep.png](img/20egrep.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![22egrep.png](img/22egrep.png)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![21egrep.png](img/21egrep.png)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![23egrep.png](img/23egrep.png)
 
 
 egrep 'Linux.*world' newfile 
