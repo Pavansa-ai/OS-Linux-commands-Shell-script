@@ -325,15 +325,17 @@ seq 2 | sed '2i hello'
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![41.png](img/41.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![42.png](img/42.png)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
-
+## OUTPUT
+![43.png](img/43.png)
 
 #Sorting File content
 cat > file21
@@ -346,7 +348,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![44.png](img/44.png)
 
 cat > file22
 ```
@@ -359,13 +361,15 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![45.png](img/45.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![46.png](img/46.png)
+
 
 cat < urllist.txt
 ```
@@ -382,12 +386,12 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![47.png](img/47.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![48.png](img/48.png)
 
 
 #Backup commands
