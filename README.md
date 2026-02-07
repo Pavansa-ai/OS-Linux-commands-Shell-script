@@ -224,19 +224,23 @@ egrep '[1-9]' newfile
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![24.png](img/24.png)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![25.png](img/25.png)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![26.png](img/26.png)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![27.png](img/27.png)
 
 
 cat > file23
@@ -255,67 +259,68 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+![28.png](img/28.png)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-
+![29.png](img/29.png)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+![30.png](img/30.png)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
+![31.png](img/31.png)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+![32.png](img/32.png)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
+![33.png](img/33.png)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
+![34.png](img/34.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![35.png](img/35.png)
 
 
 seq 10 
 ## OUTPUT
-
+![36.png](img/36.png)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+![37.png](img/37.png)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
+![38.png](img/38.png)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
+![39.png](img/39.png)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![40.png](img/40.png)
 
 
 seq 10 | sed '2,9c hello'
