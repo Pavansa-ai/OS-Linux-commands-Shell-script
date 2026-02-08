@@ -397,7 +397,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![49.png](img/49.png)
+
 
 mkdir backupdir
  
@@ -407,19 +407,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-!![50.png](img/50.png)
+
 
 tar -xvf backup.tar
 ## OUTPUT
-![51.png](img/51.png)
+
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![52.png](img/52.png)
+ 
 gunzip backup.tar.gz
 ## OUTPUT
-![53.png](img/53.png)
+
  
 # Shell Script
 ```
@@ -429,7 +429,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-![54.png](img/54.png)
+
  
 cat << stop > herecheck.txt
 ```
@@ -441,7 +441,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-![55.png](img/55.png)
+
 
 cat < scriptest.sh 
 ```bash
@@ -479,26 +479,24 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-![56.png](img/56.png)
+
  
 ls file1
 ## OUTPUT
-![57.png](img/57.png)
+
 echo $?
 ## OUTPUT 
-![58.png](img/58.png)
-
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
-![59.png](img/59.png) 
+ 
 abcd
  
 echo $?
  ## OUTPUT
-![59.png](img/59.png)
+
 
  
 # mis-using string comparisons
@@ -529,15 +527,15 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-## OUTPUT
-![60.png](img/60.png)
+##OUTPUT
+
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-![61.png](img/61.png)
+
 
 # check file ownership
 cat < psswdperm.sh 
@@ -564,7 +562,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![62.png](img/62.png)
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -610,7 +608,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-![63.png](img/63.png)
+
 
 
 # using numeric test comparisons
