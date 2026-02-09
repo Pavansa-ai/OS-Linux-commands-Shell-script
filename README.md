@@ -653,8 +653,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
-
+## OUTPUT
+![64.png](img/64.png)
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -702,8 +702,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
-
+## OUTPUT
+![65.png](img/65.png)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -731,7 +731,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![66.png](img/66.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -747,6 +747,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![67.png](img/67.png)
+
 
 # using the case command
 cat >casecheck.sh 
@@ -767,6 +769,9 @@ $ chmod 755 casecheck.sh
  
 $ ./casecheck.sh 
  
+## OUTPUT
+![68.png](img/68.png)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -781,6 +786,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+## OUTPUT
+![69.png](img/69.png)
  
  
 cat untiltest.sh 
@@ -794,6 +801,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+$ /.untiltest.sh
+
+## OUTPUT 
+![70.png](img/70.png)
  
  
  
@@ -808,19 +819,10 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
- ```
- 
-$ chmod 755 forin2.sh
+$ \.forin1.sh
+
+## OUTPUT 
+![71.png](img/71.png)
  
 cat forin2.sh 
 ```bash
@@ -834,7 +836,11 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+
+## OUTPUT
+![72.png](img/72.png)
+
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -844,20 +850,13 @@ do
 echo "word:$test"
 done
 ```
-$ ./forin3.sh 
+$ chmod 755 forin3.sh
+$ ./forin3.sh
+## OUTPUT 
+![73.png](img/73.png) 
  
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
 
-## OUTPUT
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -891,7 +890,8 @@ echo "The value of i is $i"
 done
 ````
 $ chmod 755 forctype.sh
-$ ./forctype.sh 
+$ ./forctype.sh
+
 ## OUTPUT
 
 cat forctype1.sh 
