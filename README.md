@@ -878,7 +878,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![74.png](img/74.png)
 
 cat forctype.sh 
 ```bash
@@ -893,6 +893,7 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh
 
 ## OUTPUT
+![75.png](img/75.png)
 
 cat forctype1.sh 
 ```bash
@@ -906,6 +907,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![76.png](img/76.png)
+
 
 cat fornested1.sh 
 ```bash
