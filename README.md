@@ -927,7 +927,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![77.png](img/77.png)
  
 cat forbreak.sh 
 ```bash
@@ -943,13 +943,15 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
-cat forbreak.sh 
+ ## OUTPUT
+ ![78.png](img/78.png)
+
+
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -969,7 +971,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![79.png](img/79.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -983,7 +985,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![80.png](img/80.png)
 
  cat exread1.sh
 ```bash
@@ -993,12 +995,9 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
+$ ./exread1.sh
 ## OUTPUT
-
-
-
-$ ./exread1.sh 
+![81.png](img/81.png)
  
 cat funcex.sh
 ```bash
@@ -1017,10 +1016,10 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
-
+![82.png](img/82.png)
  
  ./funcex.sh 1 2
-
+![83.png](img/83.png)
  
 cat argshift.sh
 ```bash
