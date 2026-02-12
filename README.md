@@ -1033,7 +1033,9 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+![84.png](img/84.pngs)
+
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1047,11 +1049,13 @@ for (( i=0;i<$ELEMENTS;i++)); do
     echo ${args[${i}]} 
 done
 ```
-$ chmod 777 argshift.sh
+$ chmod 777 argshift1.sh
 ## OUTPUT
-$ ./argshift.sh 1 2 3
- 
-cat argshift.sh
+$ ./argshift1.sh 1 2 3
+ ![85.png](img/85.png)
+
+
+cat argshift3.sh
 ```bash
 #!/bin/bash 
 set -x 
@@ -1061,8 +1065,10 @@ while (( "$#" )); do
 done
 set +x
 ```
+$ chmod 777 argshift3.sh
 ## OUTPUT
- ./argshift.sh 1 2 3
+./argshift3.sh 1 2 3
+![86.png](img/86.png)
  
  
 cat > nc.awk
@@ -1094,7 +1100,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![87.png](img/87.png)
+
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1121,7 +1129,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![88.png](img/88.png)
 
 # RESULT:
 The Commands are executed successfully.
